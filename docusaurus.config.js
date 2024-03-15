@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'DIYcat 知识库',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
