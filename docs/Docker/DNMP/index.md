@@ -1,3 +1,5 @@
+# DNMP
+
 DNMP（Docker + Nginx/Openresty + MySQL5,8 + PHP5,7,8 + Redis + ElasticSearch + MongoDB + RabbitMQ）是一款全功能的**LNMP一键安装程序，支持Arm CPU**。
 
 <details>
@@ -35,6 +37,7 @@ DNMP（Docker + Nginx/Openresty + MySQL5,8 + PHP5,7,8 + Redis + ElasticSearch + 
 </details>
 
 # 目录
+- [DNMP](#dnmp)
 - [目录](#目录)
   - [1.目录结构](#1目录结构)
   - [2.快速使用](#2快速使用)
@@ -323,7 +326,7 @@ install-php-extensions apcu
 
 ### 3.4 Host中使用php命令行（php-cli）
 
-1. 参考[bash.alias.sample](bash.alias.sample)示例文件，将对应 php cli 函数拷贝到主机的 `~/.bashrc`文件。
+1. 参考[bash.alias.sample](https://github.com/yeszao/dnmp/blob/master/bash.alias.sample)示例文件，将对应 php cli 函数拷贝到主机的 `~/.bashrc`文件。
 2. 让文件起效：
     ```bash
     source ~/.bashrc
@@ -340,7 +343,7 @@ install-php-extensions apcu
 ### 3.5 使用composer
 **方法1：主机中使用composer命令**
 1. 确定composer缓存的路径。比如，我的dnmp下载在`~/dnmp`目录，那composer的缓存路径就是`~/dnmp/data/composer`。
-2. 参考[bash.alias.sample](bash.alias.sample)示例文件，将对应 php composer 函数拷贝到主机的 `~/.bashrc`文件。
+2. 参考[bash.alias.sample](https://github.com/yeszao/dnmp/blob/master/bash.alias.sample)示例文件，将对应 php composer 函数拷贝到主机的 `~/.bashrc`文件。
     > 这里需要注意的是，示例文件中的`~/dnmp/data/composer`目录需是第一步确定的目录。
 3. 让文件起效：
     ```bash
