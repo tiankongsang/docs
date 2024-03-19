@@ -6,6 +6,10 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 [SUCCESS] Created docs.
 [INFO] Inside that directory, you can run several commands:
 
+  `npm`
+
+  `npm ci`
+
   `npm start`
     Starts the development server.
 
